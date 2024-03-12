@@ -38,26 +38,27 @@ startGame = () => {
 
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    localStorage.setItem("mostRecentScore", score);
+    localStorage.setItem("mostRecentScore3", score);
     //go to the end page
-    return window.location.assign("/end.html");
+    return window.location.assign("/end3.html");
   }
   questionCounter++;
   questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
-  const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-  currentQuestion = availableQuesions[questionIndex];
+  currentQuestion = questions[questionCounter - 1];
   question.innerText = currentQuestion.question;
 
-  choices.forEach((choice) => {
-    const number = choice.dataset["number"];
-    choice.innerText = currentQuestion["choice" + number];
+  // Display choices for the current question
+  choices.forEach((choice, index) => {
+    choice.innerText = currentQuestion["choice" + (index + 1)];
   });
 
-  availableQuesions.splice(questionIndex, 1);
+  // Remove the current question from availableQuestions array
+  availableQuestions.shift();
+
+  // Allow accepting answers for the current question
   acceptingAnswers = true;
 };
-
 choices.forEach((choice) => {
   choice.addEventListener("click", (e) => {
     if (!acceptingAnswers) return;
