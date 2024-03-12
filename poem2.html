@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>CompReader - Poem</title>
-    <style>
-      p {
-        display: block;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        margin-left: 0;
-        margin-right: 0;
-        font-size: 1.5rem;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container flex-center flex-column">
-      <h2>Sleep by Annie Matheson</h2>
-      <div id="timer">10:00</div>
-      <p>
-        Soft silence of the summer night! <br />
-        Alive with wistful murmurings, <br />
-        Enfold me in thy quiet might: <br />
-        Shake o’er my head thy slump’rous wings, <br />
-        So cool and light: <br />
-        Let me forget all earthly things <br />
-        In sleep to-night! <br />
-        <br />
-        Tired roses, passionately sweet, <br />
-        Are leaning on their cool green leaves, <br />
-        The mignotte about my feet <br />
-        A maze of tangled fragrance weaves, <br />
-        Where dewdrops meet: <br />
-        Kind sleep the weary world bereaves <br />
-        Of noise and heat. <br />
-        <br />
-        White lilies, as falling snow, <br />
-        And redolent of tenderness, <br />
-        Are gently swaying to and fro, <br />
-        Lulled by the breath of evening less <br />
-        Than by the low <br />
-        Music of sleepy winds, that bless <br />
-        The buds that grow. <br />
-        <br />
-        The air is like a mother’s hand <br />
-        Laid softly on a throbbing brow, <br />
-        And o’er the darksome, dewy land <br />
-        The peace of heaven is stealing now, <br />
-        While, hand in hand, <br />
-        Young angels tell the flowers how <br />
-        Their lives are planned. <br />
-        <br />
-        From yon deep sky the quiet stars <br />
-        Look down with steadfast eloquence, <br />
-        And God the prison door unbars <br />
-        That held the mute world’s in most sense <br />
-        From all the wars <br />
-        Of day’s loud hurry and turbulence; <br />
-        And nothing now the silence mars <br />
-        Of love intense. <br />
-      </p>
-      <!-- Timer for reading -->
-      <button id="doneBtn" class="btn">Done</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="poem.css" />
+
+  <title>CompReader</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title text-center">Sleep</h1>
+    <p class="title text-center h6 text-muted">by Annie Matheson</p>
+    <div id="timer">10:00</div>
+    <div class="poem">
+      <ul>
+        <li>Soft silence of the summer night!</li>
+        <li>Alive with wistful murmurings,</li>
+        <li>Enfold me in thy quiet might:</li>
+        <li>Shake o'er my head thy slump’rous wings,</li>
+        <li>So cool and light:</li>
+        <li>Let me forget all earthly things</li>
+        <li>In sleep to-night!</li>
+      </ul>
+      <ul>
+        <li>Tired roses, passionately sweet,</li>
+        <li>Are leaning on their cool green leaves,</li>
+        <li>The mignotte about my feet</li>
+        <li>A maze of tangled fragrance weaves,</li>
+        <li>Where dewdrops meet:</li>
+        <li>Kind sleep the weary world bereaves</li>
+        <li>Of noise and heat.</li>
+      </ul>
+      <ul>
+        <li>White lilies, as falling snow,</li>
+        <li>And redolent of tenderness,</li>
+        <li>Are gently swaying to and fro,</li>
+        <li>Lulled by the breath of evening less</li>
+        <li>Than by the low</li>
+        <li>Music of sleepy winds, that bless</li>
+        <li>The buds that grow.</li>
+      </ul>
+      <ul>
+        <li>The air is like a mother’s hand</li>
+        <li>Laid softly on a throbbing brow,</li>
+        <li>And o’er the darksome, dewy land</li>
+        <li>The peace of heaven is stealing now,</li>
+        <li>While, hand in hand,</li>
+        <li>Young angels tell the flowers how</li>
+        <li>Their lives are planned.</li>
+      </ul>
+      <ul>
+        <li>From yon deep sky the quiet stars</li>
+        <li>Look down with steadfast eloquence,</li>
+        <li>And God the prison door unbars</li>
+        <li>That held the mute world’s in most sense</li>
+        <li>From all the wars</li>
+        <li>Of day’s loud hurry and turbulence; </li>
+        <li>And nothing now the silence mars</li>
+        <li>Of love intense.</li>
+      </ul>
     </div>
-    <script src="poem2.js"></script>
-  </body>
+    <div class="text-center">
+      <button id="doneBtn" class="btn btn-outline-primary">Done</button>
+    </div>
+  </div>
+  <script src="poem2.js"></script>
+</body>
+
 </html>

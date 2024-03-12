@@ -15,7 +15,6 @@ body {
 #timer {
   font-family: "Orbitron", sans-serif;
   color: #d9534f;
-  border-bottom: 1px solid black;
 }
 
 h1 {
@@ -24,7 +23,12 @@ h1 {
   text-align: center; /* Center heading text */
 }
 
-ul {
+p {
+  border-bottom: 1px solid black;
+
+}
+
+ul, li {
   padding-left: 0;
 }
 
