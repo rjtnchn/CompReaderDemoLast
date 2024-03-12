@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+/* Default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0; /* Remove default body margin for better centering */
+  font-family: Arial, sans-serif; /* Set a default font family */
+}
+
+#timer {
+  font-family: "Orbitron", sans-serif;
+  color: #d9534f;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #56a5eb;
+  text-align: center; /* Center heading text */
+}
+
+ul {
+  padding-left: 0;
+}
+
+.poem ul,
+.poem {
+  list-style-type: none;
+  text-align: center; /* Center poem text */
+}
+
+.poem li {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  padding-bottom: 0.1em;
+  text-align: center; /* Center poem text within each list item */
+}
+
+.poem li:first-child::first-letter {
+  font-size: 26px;
+  font-style: italic;
+  /* padding-right: 3px; */
+}
+
+/* .poem li:not(:first-child) {
+  margin-left: 26px;
+} */
+
+/* Media Queries for different screen sizes */
+
+@media (min-width: 768px) {
+  /* Medium breakpoint (tablets typically) */
+  #timer {
+    font-size: 1.2em; /* Increase font size for timer on medium screens */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Increase font size for headings on medium screens */
+  }
+
+  .poem li {
+    font-size: 1.1em; /* Increase font size for poem lines on medium screens */
+  }
+
+  .poem li:first-child::first-letter {
+    font-size: 30px; /* Adjust first letter size accordingly */
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large breakpoint (laptops typically) */
+  #timer {
+    font-size: 1.4em; /* Further increase font size for timer on large screens */
+  }
+
+  h2 {
+    font-size: 1.8em; /* Further increase font size for headings on large screens */
+  }
+
+  .poem li {
+    font-size: 1.2em; /* Further increase font size for poem lines on large screens */
+  }
+
+  .poem li:first-child::first-letter {
+    font-size: 34px; /* Adjust first letter size accordingly */
+  }
+}
