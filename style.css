@@ -1,15 +1,24 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #000000;
   font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  font-family:  "Zilla Slab", serif;
   padding: 0;
   margin: 0;
   color: #333;
+}
+
+body{
+  height: 100vh;
+  background-image: url("images/bg\ 1.jpg");
+  background-size: cover;
+  background-position: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -21,9 +30,12 @@ h5 {
 }
 
 h1 {
-  font-size: 5.4rem;
-  color: #56a5eb;
-  margin-bottom: 5rem;
+  font: 7.0rem  "Zilla Slab", serif;
+  font-weight: 700;
+  color: rgb(253, 210, 153);
+  text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
+  margin-bottom: 10rem;
+ 
 }
 
 h1 > span {
@@ -45,11 +57,15 @@ h3 {
 /* Utilities */
 
 .container {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(images/home.jpg);
+  background-size: cover;
+  border-radius: 2rem;
+  border: solid 0.5rem rgba(73, 2, 73, 0.536);
+  height: 60rem;
+  width: 60rem;
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
@@ -83,20 +99,23 @@ h3 {
 
 /* Buttons */
 .btn {
-  font-size: 1.8rem;
-  padding: 1rem 0;
+  font: 2.0rem "Zilla Slab", serif;
+  font-style: italic;
+  padding: 1.0rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
-  margin-bottom: 1rem;
+  border: 0.1rem solid #923fd2;
+  border-radius: 0.4rem;
+  margin-bottom: 2rem;
   text-decoration: none;
-  color: #56a5eb;
-  background-color: white;
+  color:  rgb(253, 210, 153);
+  background-color: rgba(55, 10, 83, 0.601) ;
+
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(12, 120, 174, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
