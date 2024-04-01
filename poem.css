@@ -30,31 +30,24 @@ body {
 }
 
 .container{
-  position: relative;
     right: 220px;
   width: 47rem;
   height: 39rem;
 }
 
 .container2{
-  position: relative;
     left: 105px;
   width: 55rem;
   height: 44rem;
 }
 
 .container3{
-  position: relative;
     left: 140px;
   width: 48rem;
   height: 43rem;
 }
 
 #timer {
-  display: flex;
-  position: absolute;
-    right: 15rem;
-    bottom: 23rem;
   font-family: "Orbitron", sans-serif;
   color: rgb(253, 210, 153);
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
@@ -62,10 +55,6 @@ body {
 }
 
 #doneBtn{
-  display: flex;
-  position: absolute;
-    right: 12rem;
-    bottom: 20rem;
   width: 13rem;
   background-image: url(images/poem.jpg);
   background-position: 40%;
@@ -83,17 +72,6 @@ body {
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
 }
 
-.title-p { 
-  padding-left: 25rem;
-}
-
-.title-p2 {
-  padding-left: 30rem;
-}
-
-.title-p3 {
-  padding-left: 28rem;
-}
 
 p {
   padding-left: 29rem;
@@ -124,7 +102,6 @@ ul, li {
 .poem li:first-child::first-letter {
   font-size: 26px;
   font-style: italic;
-  /* padding-right: 3px; */
 }
 
 /* .poem li:not(:first-child) {
@@ -133,40 +110,15 @@ ul, li {
 
 /* Media Queries for different screen sizes */
 
-@media (min-width: 768px) {
-  /* Medium breakpoint (tablets typically) */
-  #timer {
-    font-size: 1.2em; /* Increase font size for timer on medium screens */
-  }
-
-  h2 {
-    font-size: 1.5em; /* Increase font size for headings on medium screens */
-  }
-
-  .poem li {
-    font-size: 1.1em; /* Increase font size for poem lines on medium screens */
-  }
-
-  .poem li:first-child::first-letter {
-    font-size: 30px; /* Adjust first letter size accordingly */
-  }
-}
-
-@media (min-width: 992px) {
-  /* Large breakpoint (laptops typically) */
-  #timer {
-    font-size: 3.2em; /* Further increase font size for timer on large screens */
-  }
-
-  h2 {
-    font-size: 1.8em; /* Further increase font size for headings on large screens */
-  }
-
-  .poem li {
-    font-size: 1.2em; /* Further increase font size for poem lines on large screens */
-  }
-
-  .poem li:first-child::first-letter {
-    font-size: 34px; /* Adjust first letter size accordingly */
+@media (max-width: 320px) {
+  /* Small breakpoint (mobile screens) */
+  #timer,
+  #doneBtn,
+  .title-p,
+  p,
+  ul,
+  li {
+    display: inline-block; /* Change display to inline-block for better layout on mobile */
+    width: 100%; /* Ensure full width on smaller screens */
   }
 }

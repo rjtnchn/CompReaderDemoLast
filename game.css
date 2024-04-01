@@ -3,8 +3,8 @@
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.8rem;
-  border: 0.1rem solid rgb(86, 165, 235, 0.25);
-  background-color: white;
+  border: 0.5px solid blueviolet;
+  background-color:transparent;
 }
 
 .choice-container:hover {
@@ -16,13 +16,22 @@
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
+  background-color: burlywood;
   color: white;
+  
 }
 
 .choice-text {
+  color: white;
   padding: 1.5rem;
   width: 100%;
+  
+}
+
+#question {
+  color: white;
+  text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
+
 }
 
 .correct {
@@ -41,6 +50,7 @@
 }
 
 .hud-prefix {
+  color: burlywood;
   text-align: center;
   font-size: 2rem;
 }
