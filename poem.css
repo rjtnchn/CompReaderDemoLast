@@ -133,8 +133,7 @@ ul, li {
   }
 
   .container {
-    margin: 0;
-    padding: 0;
+   width: auto;
   }
   .main {
     margin-top: 2rem;
