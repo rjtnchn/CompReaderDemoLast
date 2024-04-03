@@ -24,52 +24,12 @@
     "answer": 2
   },
   {
-    "question": "How do the children feel about their imagined band?",
-    "choice1": "The children are excited and passionate about their imagined band.",
-    "choice2": "They feel grand as they imagined being a rock n roll band.",
-    "choice3": "They feel sad thinking if there ain't no rock n roll band.",
-    "choice4": "The feeling of being proud imagining it.",
-    "answer": 1
-  },
-  {
-    "question": "Do the children actually have the instruments they talk about?",
-    "choice1": "Yes, because it is mentioned that they use homemade guitar and pails and jars and drum of potato chips.",
-    "choice2": "Yes, they express through describing that they use instruments.",
-    "choice3": "No, since those are only homemade.",
-    "choice4": "No, the children don't have the actual instrument; they're using their imagination.",
-    "answer": 3
-  },
-  {
-    "question": "Which word best describes the overall mood of the poem?",
-    "choice1": "Regretful",
-    "choice2": "Cynical",
-    "choice3": "Ambitious",
-    "choice4": "Hopeful",
-    "answer": 4
-  },
-  {
-    "question": "Which of the following best describes the tone of the poem?",
-    "choice1": "Melancholic",
-    "choice2": "Nostalgic",
-    "choice3": "Serious",
-    "choice4": "Playful",
-    "answer": 4
-  },
-  {
     "question": "What is the central theme of the poem?",
     "choice1": "The challenges of fame",
     "choice2": "The power of music",
     "choice3": "The joys of childhood imagination",
     "choice4": "The longing for success",
     "answer": 3
-  },
-  {
-    "question": "What message does the poem convey to readers?",
-    "choice1": "Imagination can make life exciting",
-    "choice2": "Fame and fortune are within reach",
-    "choice3": "Childhood fantasies are fleeting",
-    "choice4": "Imagination can make you rich boring",
-    "answer": 1
   },
   {
     "question": "What emotion could be associated with the poem?",

@@ -36,8 +36,15 @@ text-shadow: 2px 1px 10px rgb(0, 0, 0);
 
   }
 
-  
-  .container{
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .main{
+    justify-content: center;
     align-items: center;
     column-gap: 2.3rem;
     background-image: url(images/poem\ bg.jpg);
@@ -46,9 +53,9 @@ text-shadow: 2px 1px 10px rgb(0, 0, 0);
     padding: 2rem;
     border-radius: 1rem;
     border: solid 0.5rem rgba(163, 62, 246, 0.377);
-    right: 220px;
-    width: 47rem;
-    height: 39rem;
+    width: 50vw;
+    height: auto;
+    margin-top: 2rem;
   }
 
 
@@ -64,4 +71,35 @@ text-shadow: 2px 1px 10px rgb(0, 0, 0);
     filter: contrast(180%);
     text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
       }
+
+      h2 {
+        text-shadow:  6px 6px 6px rgba(171, 8, 10, 0.929);
+        text-align: center;
+      }
+      
+     p, ol, li {
+        text-align: start;
+        font-size: 1rem;
+        color: rgb(253, 210, 153);
+        filter: contrast(180%);
+        text-shadow:  6px 6px 6px rgba(171, 8, 10, 0.929);
+      }
+      
   
+      @media (max-width: 900px) {
+
+        .main{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 80vw;
+          margin-top: 2rem;
+        }
+      
+        h1 {
+          font-size: medium;
+        }
+      
+      
+      
+        }

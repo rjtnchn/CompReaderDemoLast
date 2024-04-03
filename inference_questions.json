@@ -8,22 +8,6 @@
     "answer": 4
   },
   {
-    "question": "What literary device might be used in the poem?",
-    "choice1": "Onomatopoeia",
-    "choice2": "Alliteration",
-    "choice3": "Simile",
-    "choice4": "Personification",
-    "answer": 2
-  },
-  {
-    "question": "What can you infer about the speaker’s relationship with sleep?",
-    "choice1": "They are neutral about it",
-    "choice2": "They enjoy it",
-    "choice3": "They fear it",
-    "choice4": "There’s no way to know",
-    "answer": 4
-  },
-  {
     "question": "What is the central theme of the poem?",
     "choice1": "Tranquility and serenity of the night",
     "choice2": "Nature",
@@ -32,36 +16,12 @@
     "answer": 1
   },
   {
-    "question": "How does the author use imagery to evoke a sense of place or emotion in the poem?",
-    "choice1": "Dialogue between characters",
-    "choice2": "Abstract and complex language",
-    "choice3": "Vivid description of nature",
-    "choice4": "Flashback and memories",
-    "answer": 3
-  },
-  {
-    "question": "How does the author use sound devices like rhyme and rhythm in the poem?",
-    "choice1": "Minimally",
-    "choice2": "Occasionally",
-    "choice3": "Extensively",
-    "choice4": "Not at all",
-    "answer": 3
-  },
-  {
-    "question": "What is the role of repetition in the poem, if any?",
-    "choice1": "Adds complexity to the language",
-    "choice2": "Reinforces a theme or emotion",
-    "choice3": "Serves as a distraction",
-    "choice4": "Has no discernible purpose",
-    "answer": 4
-  },
-  {
     "question": "How does the poem conclude?",
     "choice1": "With a surprising twist",
     "choice2": "With a resolution to a conflict",
     "choice3": "With an open-ended question",
     "choice4": "With a reflection on the theme",
-    "answer": 4
+    "answer": 3
   },
   {
     "question": "What is the poet’s attitude towards the subject matter?",
@@ -69,7 +29,7 @@
     "choice2": "Enthusiastic",
     "choice3": "Critical",
     "choice4": "Ambiguous",
-    "answer": 3
+    "answer": 2
   },
   {
     "question": "What is the author's purpose in writing the poem?",

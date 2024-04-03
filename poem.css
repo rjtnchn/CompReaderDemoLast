@@ -16,66 +16,79 @@ body {
   background-size: cover;
 }
 
-.container, .container2, .container3{
+.container{
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   column-gap: 2.3rem;
+  padding: 2rem;
+  max-width: 90vw;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  min-width: 50vw;
+  max-width: 50vw;
+  width: auto;
+  height: 90vh;
+  padding: 20px;
+  align-items: center;
   background-image: url(images/poem\ bg.jpg);
   background-size: cover;
   background-position: 50%;
-  padding: 2rem;
   border-radius: 1rem;
   border: solid 0.5rem rgba(163, 62, 246, 0.377);
+  overflow: auto;
+  margin-right: auto;
+  margin-left: 0 ;
+  min-width: 20rem;
 }
 
-.container{
-    right: 220px;
-  width: 47rem;
-  height: 39rem;
+.sidebar {
+  text-align: center;
 }
 
-.container2{
-    left: 105px;
-  width: 55rem;
-  height: 44rem;
-}
-
-.container3{
-    left: 140px;
-  width: 48rem;
-  height: 43rem;
-}
 
 #timer {
   font-family: "Orbitron", sans-serif;
   color: rgb(253, 210, 153);
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: auto;
 
 }
 
 #doneBtn{
   width: 13rem;
-  background-image: url(images/poem.jpg);
-  background-position: 40%;
+  background-image: url(images/poem.jpg) ;
+  background-position: 130%;
   border-color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
   border-radius: 0.3rem;
-  font-size: 1rem;
-  color: burlywood;
-  filter: contrast(180%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color:burlywood;
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
+  text-align: center;
 }
 
-.title-p, .title-p2, .title-p3{
+.title-p{
   font-family: "Times New Roman", Times, serif;
   color: rgb(253, 210, 153);
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
 }
 
+h1 {
+  font-size: 70px;
+}
+
 
 p {
-  padding-left: 29rem;
   text-shadow: 6px 6px 6px rgba(93, 21, 22, 0.929);
+  text-align: center;
 }
 
 ul, li {
@@ -104,21 +117,42 @@ ul, li {
   font-style: italic;
 }
 
-/* .poem li:not(:first-child) {
+.poem li:not(:first-child) {
   margin-left: 26px;
-} */
+}
 
 /* Media Queries for different screen sizes */
 
-@media (max-width: 320px) {
-  /* Small breakpoint (mobile screens) */
-  #timer,
-  #doneBtn,
-  .title-p,
-  p,
-  ul,
-  li {
-    display: inline-block; /* Change display to inline-block for better layout on mobile */
-    width: 100%; /* Ensure full width on smaller screens */
+@media (max-width: 900px) {
+
+  .container, .main, .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-}
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .sidebar {
+    margin-top: 2rem;
+  }
+
+  #timer {
+    font-size: 40px;
+  }
+
+
+
+  }
