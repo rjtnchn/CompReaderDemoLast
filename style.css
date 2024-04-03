@@ -137,16 +137,20 @@ h3 {
 }
 
 
-@media (min-width: 900px) {
+@media (max-width: 450px) {
 
   .main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90vw;
     margin-top: 2rem;
+   
   }
 
+  h1 {
+    font-size: 4rem;
+  }
 
 
 
