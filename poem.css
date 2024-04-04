@@ -20,14 +20,14 @@ body {
   justify-content: space-around;
   align-items: center;
   column-gap: 2.3rem;
-  max-width: 90vw;
 }
 
 
 .main {
   display: flex;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
+  min-width: 50vw;
   padding: 20px;
   align-items: center;
   background-image: url(images/poem\ bg.jpg);
@@ -42,6 +42,8 @@ body {
 
 .sidebar {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -123,12 +125,12 @@ ul, li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: auto;
     padding: 0;
   }
-
+  
   .main {
     margin-top: 2rem;
+    height: auto;
     
   }
 
