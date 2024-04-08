@@ -1,42 +1,42 @@
 [
   {
-    "question": "What mood or feeling might the poem evoke?",
-    "choice1": "Anger",
-    "choice2": "Sadness",
-    "choice3": "Excitement",
-    "choice4": "Peacefulness",
+    "question": "How does the speaker know about the night?",
+    "choice1": "He waits for the sun to go down",
+    "choice2": "He waits for her mother to say goodnight",
+    "choice3": "He waits and counts the sheep",
+    "choice4": "He waits and counts the steps taken by the night",
     "answer": 4
   },
   {
-    "question": "What is the central theme of the poem?",
-    "choice1": "Tranquility and serenity of the night",
-    "choice2": "Nature",
-    "choice3": "The imagery of tired roses, fragrant mignotte, and swaying lilies",
-    "choice4": "Love",
-    "answer": 1
-  },
-  {
-    "question": "How does the poem conclude?",
-    "choice1": "With a surprising twist",
-    "choice2": "With a resolution to a conflict",
-    "choice3": "With an open-ended question",
-    "choice4": "With a reflection on the theme",
+    "question": "Choose the correct phrase about the night:",
+    "choice1": "Comes so softly that we don’t know about it",
+    "choice2": "Stands without moving, near the gate",
+    "choice3": "Does not make the air move even slightly",
+    "choice4": "Brings along the birds and the flowers",
     "answer": 3
   },
   {
-    "question": "What is the poet’s attitude towards the subject matter?",
-    "choice1": "Indifferent",
-    "choice2": "Enthusiastic",
-    "choice3": "Critical",
-    "choice4": "Ambiguous",
-    "answer": 2
+    "question": "Choose the correct phrase about the night:",
+    "choice1": "Comes so softly that we don’t know about it",
+    "choice2": "Stands without moving, near the gate",
+    "choice3": "Comes slowly and does not disturb us",
+    "choice4": "Brings along the birds and the flowers",
+    "answer": 3
   },
   {
-    "question": "What is the author's purpose in writing the poem?",
-    "choice1": "To entertain",
-    "choice2": "To evoke emotions",
-    "choice3": "To persuade",
-    "choice4": "To inform",
-    "answer": 2
+    "question": "How does he/she count night’s step?",
+    "choice1": "By seeing the sun go down",
+    "choice2": "By seeing the sheeps running away from the dark",
+    "choice3": "By seeing night move from the garden gate to the window sill",
+    "choice4": "By intuition",
+    "answer": 3
+  },
+  {
+    "question": "Choose the correct pairs of rhyming words from the poem:",
+    "choice1": "Lane - again, word - bird, wait - gate",
+    "choice2": "Lane - gate, bird - again, word - wait",
+    "choice3": "There - wait, until - soon, sigh - air",
+    "choice4": "Sigh - soon, until - soon, there - air",
+    "answer": 1
   }
 ]

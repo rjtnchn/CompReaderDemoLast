@@ -1,42 +1,42 @@
 [
   {
-    "question": "Who are the main characters in the poem?",
-    "choice1": "The rock n rolls band.",
-    "choice2": "The children who want to form a rock n roll band.",
-    "choice3": "The million fans and the children.",
-    "choice4": "The seven kids in the sand.",
-    "answer": 2
-  },
-  {
-    "question": "What do the children in the poem want to become?",
-    "choice1": "They want to be a traveler and travel around the world.",
-    "choice2": "They want to be famous and make a million fans.",
-    "choice3": "They want to become a millionaire as a band.",
-    "choice4": "The children want to become rock n roll musicians.",
-    "answer": 4
-  },
-  {
-    "question": "What instruments do they mention in the poem?",
-    "choice1": "They always mention of rock n roll",
-    "choice2": "They mention instruments like homemade guitar and drums of potato chip cans.",
-    "choice3": "It is stated that pails and jars are what the children use.",
-    "choice4": "There is no instrument that is mentioned in the poem.",
-    "answer": 2
-  },
-  {
-    "question": "What is the central theme of the poem?",
-    "choice1": "The challenges of fame",
-    "choice2": "The power of music",
-    "choice3": "The joys of childhood imagination",
-    "choice4": "The longing for success",
+    "question": "What is being addressed in the first line?",
+    "choice1": "The hill",
+    "choice2": "The fisherman",
+    "choice3": "The sea",
+    "choice4": "The sister",
     "answer": 3
   },
   {
-    "question": "What emotion could be associated with the poem?",
-    "choice1": "Grief and sorrow",
-    "choice2": "Joy and excitement",
-    "choice3": "Calmness and tranquility",
-    "choice4": "Boredom and monotony",
+    "question": "Where are the ships going?",
+    "choice1": "Under the hill",
+    "choice2": "Above the hill",
+    "choice3": "On the boat",
+    "choice4": "Under the boat",
+    "answer": 1
+  },
+  {
+    "question": "Who are the people mentioned in the second stanza?",
+    "choice1": "Pirate, boy, sister",
+    "choice2": "Doctor, father, mother",
+    "choice3": "Fisherman’s boy, his sister, sailor boy",
+    "choice4": "Mother, father, son, sister",
+    "answer": 3
+  },
+  {
+    "question": "What is the mood of the poet?",
+    "choice1": "Happy",
+    "choice2": "Sad",
+    "choice3": "Funny",
+    "choice4": "Angry",
     "answer": 2
+  },
+  {
+    "question": "What does 'haven' mean?",
+    "choice1": "To speak loud",
+    "choice2": "Big and grand",
+    "choice3": "Safe and peaceful",
+    "choice4": "Rough, steep masses of rocks",
+    "answer": 3
   }
 ]
